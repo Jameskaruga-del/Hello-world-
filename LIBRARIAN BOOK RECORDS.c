@@ -28,7 +28,7 @@ int main(void) {
             return 1;
         }
 
-        fflush(fp); /* ensure it's written */
+        fflush(fp); 
         printf("Title stored successfully: \"%s\"\n", title); /* confirmation message */
     }
 
